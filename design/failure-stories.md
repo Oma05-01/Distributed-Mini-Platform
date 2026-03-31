@@ -54,9 +54,9 @@ This document records the simulated failures injected during Phase 5 and how the
 **What Happened:**
 
 - The Queue backlog spiked to 10.
-- 
+  
 - Because the Background Worker takes 2 seconds to process each event, it took 20 seconds to drain the queue.
-- 
+  
 - The client continued to read and write without any latency degradation.
 
 
